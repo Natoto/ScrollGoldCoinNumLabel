@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'ScrollGoldCoinNumLabel'
-    s.version      = '0.0.1'
+    s.version      = '0.0.2'
     s.summary      = '金币数字上下滚动的label' 
     s.homepage     = "https://github.com/Natoto/ScrollGoldCoinNumLabel.git"
     s.license      = "MIT"
