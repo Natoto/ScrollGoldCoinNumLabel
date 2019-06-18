@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7809073122B767AB0081B6C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7809073022B767AB0081B6C1 /* AppDelegate.m */; };
+		7809073422B767AB0081B6C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7809073322B767AB0081B6C1 /* ViewController.m */; };
+		7809073722B767AB0081B6C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809073522B767AB0081B6C1 /* Main.storyboard */; };
+		7809073922B767AC0081B6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7809073822B767AC0081B6C1 /* Assets.xcassets */; };
+		7809073C22B767AC0081B6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7809073A22B767AC0081B6C1 /* LaunchScreen.storyboard */; };
+		7809073F22B767AC0081B6C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7809073E22B767AC0081B6C1 /* main.m */; };
+		7809074922B767AC0081B6C1 /* GoldCoinLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7809074822B767AC0081B6C1 /* GoldCoinLabelDemoTests.m */; };
+		7809075422B767AC0081B6C1 /* GoldCoinLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7809075322B767AC0081B6C1 /* GoldCoinLabelDemoUITests.m */; };
+		7844243022B8D9A00026098D /* TestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844242F22B8D9A00026098D /* TestLabel.m */; };
+		7844243822B8E6B30026098D /* ScrollGoldCoinNumLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844243622B8E6B30026098D /* ScrollGoldCoinNumLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7809074522B767AC0081B6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7809072422B767AA0081B6C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7809072B22B767AA0081B6C1;
+			remoteInfo = GoldCoinLabelDemo;
+		};
+		7809075022B767AC0081B6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7809072422B767AA0081B6C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7809072B22B767AA0081B6C1;
+			remoteInfo = GoldCoinLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7809072C22B767AA0081B6C1 /* GoldCoinLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldCoinLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809072F22B767AA0081B6C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7809073022B767AB0081B6C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7809073222B767AB0081B6C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7809073322B767AB0081B6C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7809073622B767AB0081B6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7809073822B767AC0081B6C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7809073B22B767AC0081B6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7809073D22B767AC0081B6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7809073E22B767AC0081B6C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7809074422B767AC0081B6C1 /* GoldCoinLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldCoinLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809074822B767AC0081B6C1 /* GoldCoinLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldCoinLabelDemoTests.m; sourceTree = "<group>"; };
+		7809074A22B767AC0081B6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7809074F22B767AC0081B6C1 /* GoldCoinLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldCoinLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7809075322B767AC0081B6C1 /* GoldCoinLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldCoinLabelDemoUITests.m; sourceTree = "<group>"; };
+		7809075522B767AC0081B6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7844242E22B8D9A00026098D /* TestLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLabel.h; sourceTree = "<group>"; };
+		7844242F22B8D9A00026098D /* TestLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLabel.m; sourceTree = "<group>"; };
+		7844243622B8E6B30026098D /* ScrollGoldCoinNumLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollGoldCoinNumLabel.m; sourceTree = "<group>"; };
+		7844243722B8E6B30026098D /* ScrollGoldCoinNumLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollGoldCoinNumLabel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7809072922B767AA0081B6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809074122B767AC0081B6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809074C22B767AC0081B6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7809072322B767AA0081B6C1 = {
+			isa = PBXGroup;
+			children = (
+				7809072E22B767AA0081B6C1 /* GoldCoinLabelDemo */,
+				7809074722B767AC0081B6C1 /* GoldCoinLabelDemoTests */,
+				7809075222B767AC0081B6C1 /* GoldCoinLabelDemoUITests */,
+				7809072D22B767AA0081B6C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7809072D22B767AA0081B6C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7809072C22B767AA0081B6C1 /* GoldCoinLabelDemo.app */,
+				7809074422B767AC0081B6C1 /* GoldCoinLabelDemoTests.xctest */,
+				7809074F22B767AC0081B6C1 /* GoldCoinLabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7809072E22B767AA0081B6C1 /* GoldCoinLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7844243522B8E6B30026098D /* Class */,
+				7809072F22B767AA0081B6C1 /* AppDelegate.h */,
+				7809073022B767AB0081B6C1 /* AppDelegate.m */,
+				7809073222B767AB0081B6C1 /* ViewController.h */,
+				7809073322B767AB0081B6C1 /* ViewController.m */,
+				7844242E22B8D9A00026098D /* TestLabel.h */,
+				7844242F22B8D9A00026098D /* TestLabel.m */,
+				7809073522B767AB0081B6C1 /* Main.storyboard */,
+				7809073822B767AC0081B6C1 /* Assets.xcassets */,
+				7809073A22B767AC0081B6C1 /* LaunchScreen.storyboard */,
+				7809073D22B767AC0081B6C1 /* Info.plist */,
+				7809073E22B767AC0081B6C1 /* main.m */,
+			);
+			path = GoldCoinLabelDemo;
+			sourceTree = "<group>";
+		};
+		7809074722B767AC0081B6C1 /* GoldCoinLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7809074822B767AC0081B6C1 /* GoldCoinLabelDemoTests.m */,
+				7809074A22B767AC0081B6C1 /* Info.plist */,
+			);
+			path = GoldCoinLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		7809075222B767AC0081B6C1 /* GoldCoinLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7809075322B767AC0081B6C1 /* GoldCoinLabelDemoUITests.m */,
+				7809075522B767AC0081B6C1 /* Info.plist */,
+			);
+			path = GoldCoinLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+		7844243522B8E6B30026098D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7844243622B8E6B30026098D /* ScrollGoldCoinNumLabel.m */,
+				7844243722B8E6B30026098D /* ScrollGoldCoinNumLabel.h */,
+			);
+			path = Class;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7809072B22B767AA0081B6C1 /* GoldCoinLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809075822B767AC0081B6C1 /* Build configuration list for PBXNativeTarget "GoldCoinLabelDemo" */;
+			buildPhases = (
+				7809072822B767AA0081B6C1 /* Sources */,
+				7809072922B767AA0081B6C1 /* Frameworks */,
+				7809072A22B767AA0081B6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldCoinLabelDemo;
+			productName = GoldCoinLabelDemo;
+			productReference = 7809072C22B767AA0081B6C1 /* GoldCoinLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7809074322B767AC0081B6C1 /* GoldCoinLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809075B22B767AC0081B6C1 /* Build configuration list for PBXNativeTarget "GoldCoinLabelDemoTests" */;
+			buildPhases = (
+				7809074022B767AC0081B6C1 /* Sources */,
+				7809074122B767AC0081B6C1 /* Frameworks */,
+				7809074222B767AC0081B6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7809074622B767AC0081B6C1 /* PBXTargetDependency */,
+			);
+			name = GoldCoinLabelDemoTests;
+			productName = GoldCoinLabelDemoTests;
+			productReference = 7809074422B767AC0081B6C1 /* GoldCoinLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7809074E22B767AC0081B6C1 /* GoldCoinLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7809075E22B767AC0081B6C1 /* Build configuration list for PBXNativeTarget "GoldCoinLabelDemoUITests" */;
+			buildPhases = (
+				7809074B22B767AC0081B6C1 /* Sources */,
+				7809074C22B767AC0081B6C1 /* Frameworks */,
+				7809074D22B767AC0081B6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7809075122B767AC0081B6C1 /* PBXTargetDependency */,
+			);
+			name = GoldCoinLabelDemoUITests;
+			productName = GoldCoinLabelDemoUITests;
+			productReference = 7809074F22B767AC0081B6C1 /* GoldCoinLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7809072422B767AA0081B6C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = boob;
+				TargetAttributes = {
+					7809072B22B767AA0081B6C1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7809074322B767AC0081B6C1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7809072B22B767AA0081B6C1;
+					};
+					7809074E22B767AC0081B6C1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7809072B22B767AA0081B6C1;
+					};
+				};
+			};
+			buildConfigurationList = 7809072722B767AA0081B6C1 /* Build configuration list for PBXProject "GoldCoinLabelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7809072322B767AA0081B6C1;
+			productRefGroup = 7809072D22B767AA0081B6C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7809072B22B767AA0081B6C1 /* GoldCoinLabelDemo */,
+				7809074322B767AC0081B6C1 /* GoldCoinLabelDemoTests */,
+				7809074E22B767AC0081B6C1 /* GoldCoinLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7809072A22B767AA0081B6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809073C22B767AC0081B6C1 /* LaunchScreen.storyboard in Resources */,
+				7809073922B767AC0081B6C1 /* Assets.xcassets in Resources */,
+				7809073722B767AB0081B6C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809074222B767AC0081B6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809074D22B767AC0081B6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7809072822B767AA0081B6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7844243022B8D9A00026098D /* TestLabel.m in Sources */,
+				7809073422B767AB0081B6C1 /* ViewController.m in Sources */,
+				7809073F22B767AC0081B6C1 /* main.m in Sources */,
+				7809073122B767AB0081B6C1 /* AppDelegate.m in Sources */,
+				7844243822B8E6B30026098D /* ScrollGoldCoinNumLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809074022B767AC0081B6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809074922B767AC0081B6C1 /* GoldCoinLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7809074B22B767AC0081B6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7809075422B767AC0081B6C1 /* GoldCoinLabelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7809074622B767AC0081B6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7809072B22B767AA0081B6C1 /* GoldCoinLabelDemo */;
+			targetProxy = 7809074522B767AC0081B6C1 /* PBXContainerItemProxy */;
+		};
+		7809075122B767AC0081B6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7809072B22B767AA0081B6C1 /* GoldCoinLabelDemo */;
+			targetProxy = 7809075022B767AC0081B6C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7809073522B767AB0081B6C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7809073622B767AB0081B6C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7809073A22B767AC0081B6C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7809073B22B767AC0081B6C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7809075622B767AC0081B6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7809075722B767AC0081B6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7809075922B767AC0081B6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoldCoinLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.com.GoldCoinLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7809075A22B767AC0081B6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoldCoinLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.com.GoldCoinLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7809075C22B767AC0081B6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoldCoinLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.com.GoldCoinLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldCoinLabelDemo.app/GoldCoinLabelDemo";
+			};
+			name = Debug;
+		};
+		7809075D22B767AC0081B6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoldCoinLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.com.GoldCoinLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldCoinLabelDemo.app/GoldCoinLabelDemo";
+			};
+			name = Release;
+		};
+		7809075F22B767AC0081B6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoldCoinLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.com.GoldCoinLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoldCoinLabelDemo;
+			};
+			name = Debug;
+		};
+		7809076022B767AC0081B6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoldCoinLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.com.GoldCoinLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoldCoinLabelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7809072722B767AA0081B6C1 /* Build configuration list for PBXProject "GoldCoinLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809075622B767AC0081B6C1 /* Debug */,
+				7809075722B767AC0081B6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7809075822B767AC0081B6C1 /* Build configuration list for PBXNativeTarget "GoldCoinLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809075922B767AC0081B6C1 /* Debug */,
+				7809075A22B767AC0081B6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7809075B22B767AC0081B6C1 /* Build configuration list for PBXNativeTarget "GoldCoinLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809075C22B767AC0081B6C1 /* Debug */,
+				7809075D22B767AC0081B6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7809075E22B767AC0081B6C1 /* Build configuration list for PBXNativeTarget "GoldCoinLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809075F22B767AC0081B6C1 /* Debug */,
+				7809076022B767AC0081B6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7809072422B767AA0081B6C1 /* Project object */;
+}
