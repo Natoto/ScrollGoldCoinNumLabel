@@ -144,8 +144,8 @@
 		7844243522B8E6B30026098D /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				7844243622B8E6B30026098D /* ScrollGoldCoinNumLabel.m */,
 				7844243722B8E6B30026098D /* ScrollGoldCoinNumLabel.h */,
+				7844243622B8E6B30026098D /* ScrollGoldCoinNumLabel.m */,
 			);
 			path = Class;
 			sourceTree = SOURCE_ROOT;

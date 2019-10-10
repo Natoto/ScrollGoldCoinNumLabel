@@ -14,11 +14,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) IBInspectable NSInteger goldNum;
 
+@property (nonatomic, assign) IBInspectable CGFloat fontSize;
+
 @property (nonatomic, strong) IBInspectable UIColor * textColor;
 
 @property (nonatomic, strong) UIFont * font;
 
 @property(nonatomic, assign) NSTextAlignment textAlignment;
+
 
 @end
 

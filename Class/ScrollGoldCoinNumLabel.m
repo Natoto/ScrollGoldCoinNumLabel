@@ -98,12 +98,11 @@
 @end
 
 @interface ScrollGoldCoinNumLabel()
+
 @property (nonatomic, assign) CGSize chatFontSize;
 @property (nonatomic, strong) NSMutableDictionary<NSNumber *,HTVGoldCoinEntity *> * ylocationoffset;
 @property (nonatomic, assign) float timerCount;
 @property (nonatomic, strong) NSTimer * timer;
-
-
 
 @property (nonatomic, strong) NSString * text;
 @property (nonatomic, strong) NSString * targetText;
@@ -273,21 +272,21 @@
     textDict[NSFontAttributeName] = self.font;
     
     //    //设置空心文字的颜色和宽度
-    //    textDict[NSStrokeWidthAttributeName] = @3;
-    //
-    //    textDict[NSStrokeColorAttributeName] = [UIColor yellowColor];
+        textDict[NSStrokeWidthAttributeName] = @3;
+    
+        textDict[NSStrokeColorAttributeName] = self.textColor;
     
     
-    //    //创建阴影对象
-    //    NSShadow * shadow = [[NSShadow alloc]init];
-    //    //颜色
-    //    shadow.shadowColor = [UIColor greenColor];
-    //    //偏移量
-    //    shadow.shadowOffset = CGSizeMake(4, 4);
-    //    //模糊半径
-    //    shadow.shadowBlurRadius = 3;
-    //    //加入属性
-    //    textDict[NSShadowAttributeName] = shadow;
+        //创建阴影对象
+        NSShadow * shadow = [[NSShadow alloc]init];
+        //颜色
+        shadow.shadowColor = [UIColor grayColor];
+        //偏移量
+        shadow.shadowOffset = CGSizeMake(2, 2);
+        //模糊半径
+        shadow.shadowBlurRadius = 3;
+        //加入属性
+        textDict[NSShadowAttributeName] = shadow;
     
     
     [str drawInRect:frame withAttributes:textDict];
@@ -317,6 +316,12 @@
         }
     }
     return _font;
+}
+-(void)setFontSize:(CGFloat)fontSize
+{
+    _fontSize = fontSize;
+    NSString * fontname = [self.font fontName];
+    self.font = [UIFont fontWithName:fontname size:_fontSize];
 }
 
 -(void)setFont:(UIFont *)font{
